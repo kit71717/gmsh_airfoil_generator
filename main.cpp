@@ -154,7 +154,7 @@ int main(int argc, char const *argv[]) {
     std::vector<std::pair<int, int> > ov;
 //    gmsh::model::geo::extrude({{2, 1}}, 0, 0, h, ov, {1, 1, 1, 1, 1, 1}, {dh, 2*dh, 3*dh, 4*dh, 5*dh, 6*dh}, true);
 
-    gmsh::model::geo::extrude({{2, 1}}, 0, 0, h, ov, {1}, {1}, true);
+    gmsh::model::geo::extrude({{2, 1}}, 0, 0, h, ov, {12}, {1}, true);
 
     gmsh::model::geo::synchronize();
 //    gmsh::model::mesh::generate(2);
